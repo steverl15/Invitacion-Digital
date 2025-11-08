@@ -1,0 +1,30 @@
+#seccion-boda {
+    background-image: url('./img/img1.jpg') !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    min-height: 100vh !important;
+    position: relative !important;
+    z-index: 1;
+}
+
+#seccion-boda::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+}
+
+#seccion-boda > .elementor-container {
+    position: relative;
+    z-index: 2;
+}
+
+#seccion-boda .elementor-heading-title {
+    color: white !important;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
